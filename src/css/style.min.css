@@ -9,7 +9,7 @@
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.625vw;
   font-style: normal;
   font-weight: normal;
@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   color: #282828;
-  background-color: #f8f8f8;
+  background-color: #141416;
 }
 
 input,
@@ -111,17 +111,17 @@ ul li {
 }
 
 .container {
-  width: 117rem;
+  width: 144rem;
   margin: 0 auto;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-input[type=number] {
+input[type='number'] {
   -moz-appearance: textfield;
 }
 
