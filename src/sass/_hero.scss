@@ -1,6 +1,7 @@
 .hero {
   @include centered;
-  padding: 15rem 15rem;
+  padding: 15rem 0;
+  flex-direction: column;
 }
 
 .button_hero {
@@ -28,4 +29,170 @@
   text-align: center;
   letter-spacing: -0.01em;
   color: #fcfcfd;
+}
+
+.hero_item {
+  position: relative;
+  width: 114rem;
+
+  @include even;
+}
+.hero_video {
+  width: 48rem;
+  margin-top: 5rem;
+  margin-left: 0;
+}
+.hero_creator {
+  margin-left: 0rem;
+  text-align: center;
+}
+.creator_text {
+  margin-top: -3rem;
+  align-items: center;
+  text-align: left;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+  letter-spacing: -0.02em;
+  color: #fcfcfd;
+}
+
+.creator_frame_svg {
+  height: 29rem;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.creator_place_bid {
+  margin-top: -9rem;
+}
+.place_bid {
+  padding: 0;
+  margin: 0;
+}
+
+.hero_items {
+  margin-top: 15rem;
+  width: 112rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 44% 37% 18%;
+  grid-gap: 0.1rem;
+}
+
+.hero_items1 {
+  display: grid;
+  grid-template-rows: 70% 30%;
+  grid-gap: 0.1rem;
+}
+
+.hero_items1_pic {
+  width: 44.84em;
+  overflow: hidden;
+}
+
+.hero_items1_desc svg {
+  width: 44.8rem;
+}
+
+.hero_items2 {
+  display: grid;
+  grid-template-rows: 32% 32% 32%;
+  margin-right: auto;
+  border-right: solid 1px #353945;
+}
+
+.hero_items2_item {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0.01rem;
+}
+.hero_items2_item_pic img {
+  width: 16rem;
+  height: 14rem;
+  border-radius: 1.2rem;
+}
+.place_bid_transp,
+.place_bid_blue {
+  width: 9.8rem;
+  height: 3.2rem;
+}
+
+.desc_text p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #fcfcfd;
+  margin-top: 1.2rem;
+}
+.eth {
+  width: 6.6rem;
+}
+
+.hero_desc_number {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777e91;
+}
+.client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.6rem;
+  padding-right: 2.5rem;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
+.hero_desc_avatar img {
+  border-radius: 50%;
+  background-color: #9757d7;
+}
+/*
+.vertical-line::after {
+  content: '';
+  border: 0.1rem solid #353945;
+  display: inline-block;
+  height: 51.2rem;
+  position: absolute;
+  margin: 0 0 0 -2rem;
+}
+*/
+.discover_more {
+  width: 15.8rem;
+}
+
+.items3_item {
+  margin-top: 2.3rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0.01rem;
+  height: 8.3rem;
+}
+
+.border {
+  border-bottom: solid 1px #353945;
+}
+.items3_text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #fcfcfd;
+  margin-left: 0;
+}
+.items3_text span {
+  color: #777e90;
+}
+.items3_avatar {
+  margin-right: 0;
+  width: 5.6rem;
 }
