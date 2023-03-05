@@ -1,0 +1,135 @@
+.seller {
+  margin-top: -2rem;
+  background-color: #23262f;
+  height: 66.3rem;
+}
+
+.sellers1 {
+  padding-top: 15rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.sellers1_left svg {
+  height: 1.5rem;
+  margin-left: -12rem;
+}
+.sellers1_left p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #777e91;
+}
+.sellers1_left span {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.01em;
+  color: #fcfcfd;
+}
+.sellers1_right p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #b1b5c4;
+  margin-bottom: 1.5rem;
+}
+.sellers1_right {
+  margin-right: 0rem;
+}
+.sellers1_right select {
+  cursor: pointer;
+  display: flex;
+  background-color: #23262f;
+  border-radius: 1.2rem;
+  border: solid 1px #353945;
+  width: 25.6rem;
+  height: 4.8rem;
+  overflow: hidden;
+  color: #fcfcfd;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  align-items: center;
+  color: #fcfcfd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: url('../img/logo/Small_button_down.png') no-repeat right center;
+  outline: 0;
+}
+.sellers2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.sellers2_item {
+  background-color: #141416;
+  border-radius: 1.6rem;
+  margin-top: 8rem;
+
+  height: 26.3rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.sellers2_item_rating {
+  border-bottom: solid 1px #353945;
+  height: 8.2rem;
+  width: 16rem;
+  align-items: center;
+  text-align: center;
+}
+.sellers2_item_rating svg {
+  margin-top: 3rem;
+  height: 2rem;
+  width: 15rem;
+  text-align: center;
+}
+.sellers2_item_avatar img {
+  width: 6.4rem;
+  margin-top: 3rem;
+}
+.sellers2_item_text p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #fcfcfd;
+}
+
+.sellers2_item_text span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #777e91;
+}
+.left_button svg {
+  height: 0.9rem;
+  width: 1.4rem;
+  margin-left: -2rem;
+  margin-top: 20rem;
+}
+.right_button svg {
+  height: 4rem;
+  width: 4rem;
+  margin-right: -6rem;
+  margin-top: 20rem;
+}
