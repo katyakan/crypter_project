@@ -1004,3 +1004,114 @@ input {
   border: 2px solid #353945;
   border-radius: 90px;
 }
+
+.wallet {
+  border-bottom: 0.2rem solid #353945;
+}
+
+.wallet_base {
+  height: 102rem;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.wallet_text {
+  border-bottom: 0.2rem solid #353945;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.02rem;
+  color: #FCFCFD;
+  padding-bottom: 4rem;
+}
+
+.wallet_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8.1rem;
+}
+
+.wallet_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #FCFCFD;
+  padding: 2rem;
+  width: 54.4rem;
+  height: 12.8rem;
+  border: 0.2rem solid #141416;
+  border-radius: 1.6rem;
+}
+
+.wallet_item:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #FCFCFD;
+  width: 54.4rem;
+  height: 12.8rem;
+  border: 0.2rem solid #353945;
+  border-radius: 1.6rem;
+}
+
+.wallet_item_logo svg {
+  width: 6.4rem;
+  height: 6.4rem;
+  align-items: center;
+  margin-right: 2rem;
+  text-align: center;
+  margin-left: -5rem;
+  margin-top: 1rem;
+}
+
+.wallet_item_text {
+  align-items: center;
+  margin: 2rem 0 1rem -5rem;
+}
+
+.wallet_block_qr img {
+  width: 44.8rem;
+  height: 44.8rem;
+  margin-top: 2rem;
+}
+
+.wallet_block_button svg {
+  margin-top: 3rem;
+  width: 19.9rem;
+  height: 5.2rem;
+}
+.wallet_block_button svg:hover {
+  transform: scale(1.05);
+}
+
+.wallet_block_text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.01em;
+  color: #FCFCFD;
+}
+
+.wallet_block_text span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #777E91;
+}
