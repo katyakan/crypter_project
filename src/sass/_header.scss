@@ -1,13 +1,43 @@
-.navigation {
-  position: relative;
-  margin-top: 2.4rem;
-  @include even;
-  align-items: center;
-  flex-direction: row;
+.header {
+  border-bottom: .1rem solid #353945;
 }
-.logo {
+.navigation {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;//15% 5% 10% 10% 24% 10% 10% 7% 7% ;
+  box-sizing: border-box;
+margin: 0;
+
+ // position: relative;
+ // margin-top: 2.4rem;
+ // @include even;
+ align-items: center;
+ // flex-direction: row;
+  padding: 0;
+}
+.header_block_logo {
+  margin-left: -7rem;
+}
+.header_block_how {
+  margin-right: 8rem;
+}
+.header_block_wallet {
+  margin-right: -10rem;
+  margin-left: -8rem;
+}
+.header_button_upload {
+ // margin-left: 2rem;
+  //margin-right: 2rem;
+}
+.search {
+ margin-right: 3rem;
+}
+.header_notification {
+ // margin-right: 1rem;
+  //margin-left: 2rem;
+}
+.logo svg {
   width: 12.6rem;
-  margin-left: -3rem;
+ margin-left: -10rem;
 }
 .line {
   color: #353945;
@@ -19,15 +49,15 @@
   color: white;
   width: 1rem;
   height: 4rem;
-  margin-left: -4rem;
+  //margin-left: -4rem;
 }
 
 .header__link2 {
-  margin-right: 10rem;
-  margin-left: -3rem;
+  //margin-right: 10rem;
+  //margin-left: -3rem;
 }
 .header__link1 {
-  margin-left: -4rem;
+ // margin-left: -4rem;
 }
 .header_input {
   font-family: inherit;
@@ -48,28 +78,28 @@
 .button_upload {
   width: 8rem;
   height: 4rem;
-  margin-right: -7rem;
+ // margin-right: -7rem;
 }
 .button_wallet {
-  margin-left: -7rem;
+ // margin-left: -7rem;
   height: 4rem;
-  margin-right: -1rem;
+ // margin-right: -1rem;
 }
 .notification {
   height: 4rem;
   width: 4rem;
-  margin-right: -5rem;
-  margin-left: -3rem;
+ // margin-right: -5rem;
+ // margin-left: -3rem;
 }
 .header_left {
-  @include even;
+ 
   justify-content: left;
   align-items: center;
   position: absolute;
 }
 
 .header_right {
-  @include even;
+
   align-items: center;
   position: absolute;
 }

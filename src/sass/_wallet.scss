@@ -78,9 +78,19 @@ margin-top: 1rem;
 .wallet_item_text {
   align-items: center;
   margin: 2rem 0 1rem -5rem ;
-  
+} 
+.wallet_item_text span{
 
+  color: #141416;
 }
+  .wallet_item:hover .wallet_item_text span{
+   
+    color: #FCFCFD;
+   
+    
+  }
+  
+ 
 .wallet_block_qr img {
   width: 44.8rem;
   height: 44.8rem;
@@ -104,6 +114,7 @@ margin-top: 1rem;
 color: #FCFCFD;
 }
 .wallet_block_text span {
+
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -111,3 +122,4 @@ color: #FCFCFD;
   line-height: 2rem;
   color: #777E91;
 }
+

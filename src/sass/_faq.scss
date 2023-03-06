@@ -1,0 +1,148 @@
+.faq_base {
+  border-bottom: .1rem solid #777E90;
+
+}
+.faq1 {
+  margin-top: 13.2rem;
+  margin-bottom: 5rem;
+}
+.faq1_main {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 3.2rem;
+}
+.faq_title {
+  margin-bottom: 8rem;
+}
+.faq1_main_menu {
+  width: 30%;
+}
+.faq_menu_links {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.faq_menu_links_logo {
+
+}
+.faq1_main_strokes {
+  width: 69%;
+}
+
+.faq1_text {
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 4.8rem;
+line-height: 5.6rem;
+letter-spacing: -0.02em;
+color: #FCFCFD;
+}
+
+.faq1_text2 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.4rem;
+color: #E6E8EC;
+}
+.faq1_text2 a {
+  color: #3772FF;
+}
+.first_row {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+    text-transform: uppercase;
+  color: #777E90;
+
+}
+.faq_menu_links_logo svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.faq_menu_links_text  {
+  margin-left: 2rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+    display: flex;
+  align-items: center;
+    color: #FCFCFD;
+}
+
+ .grey {
+  color: #777E91;
+}
+
+/*strokes*/
+
+.faq2 {
+  box-sizing: border-box;
+}
+  .accordion {
+    transform: translateZ(0);
+    background: white;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+  }
+  
+  .accordion>.accordion-toggle {
+    display: none;
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .accordion>label {
+    display: block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background: #ecebec;
+    color: #555;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .accordion>label:after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid #555;
+    border-top: 2px solid #555;
+    transform: rotate(-135deg);
+    transition: 0.4s transform;
+  }
+  
+  .accordion>section {
+    overflow: hidden;
+    height: 0;
+    transition: all .4s;
+  }
+  
+  .accordion>.accordion-toggle:checked~label:after {
+    transform: rotate(45deg);
+    top: 16px;
+  }
+  
+  .accordion>.accordion-toggle:checked~section {
+    height: 50px;
+  }
+  
+  .accordion>section p {
+    margin: 15px 0;
+    padding: 0 20px;
+  }
