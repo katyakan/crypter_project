@@ -87,10 +87,10 @@ color: #E6E8EC;
 }
   .accordion {
     transform: translateZ(0);
-    background: white;
-    border-bottom: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
+    background:  #141416;
+    border-top: 1px solid #353945;
+    align-items: center;
+    
   }
   
   .accordion>.accordion-toggle {
@@ -102,25 +102,30 @@ color: #E6E8EC;
   .accordion>label {
     display: block;
     position: relative;
-    height: 50px;
+    height: 96px;
     line-height: 50px;
-    padding: 0 20px;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    background: #ecebec;
-    color: #555;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
+    padding: 40px 5px 10px 0;
+   
+   // border-top: 1px solid lightgray;
+   // border-bottom: 1px solid lightgray;
+    background:  #141416;
+      cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCFCFD;
+    align-items: center;
   }
   
   .accordion>label:after {
     content: '';
     position: absolute;
-    top: 12px;
+    top: 42px;
     right: 20px;
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
     border-left: 2px solid #555;
     border-top: 2px solid #555;
     transform: rotate(-135deg);
@@ -139,10 +144,105 @@ color: #E6E8EC;
   }
   
   .accordion>.accordion-toggle:checked~section {
-    height: 50px;
+    height: 24rem;
   }
   
   .accordion>section p {
-    margin: 15px 0;
-    padding: 0 20px;
+    margin: 10px 0;
+    padding: 0;
   }
+
+  .toggle_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #777E91;
+align-items: center;
+  }
+
+ .faq_button_strokes svg {
+  margin-top: 1.5rem;
+  width: 117px;
+height: 40px;
+ }
+
+
+
+ /*bid*/
+.bid_container {
+  display: flex;
+  justify-content: space-between;
+}
+ .bid_item {
+  width: 24rem;
+  height: 30.3rem;
+  background: #CDB4DB;
+  border-radius: 1.6rem;
+  margin-bottom: 22rem;
+  }
+
+  .bid_item img {
+    border-radius: 1.6rem;
+  }
+ .bid_item_block_3 svg{
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+}
+
+.bid_item_block_3 p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777E91;
+}
+
+.bid_text {
+ font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.01em;
+color: #FCFCFD;
+
+}
+.bid_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bid_description svg:last-child {
+  width:4rem;;
+
+}
+.bid_description svg:first-child {
+  width:2.4rem;
+  margin-right: 3rem;
+
+}
+.bid_item_block_1 svg {
+  width: 68px;
+height: 26px;
+align-items: center;
+margin-left: auto;
+margin-top: .7rem;
+
+}
+.bid_item_block_1 {
+  align-items: center;
+  margin-bottom: .7rem;
+  
+}
+.bid_item_block_2 {
+  border-bottom: .1rem solid #777E90;
+  margin-bottom: .7rem;
+  align-items: center;
+  padding: .5rem  0;
+
+}
