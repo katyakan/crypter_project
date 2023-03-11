@@ -1,9 +1,11 @@
 .hero {
-  @include centered;
- // padding: 15rem 0;
+  display: flex;
+  //align-items: center;
+  justify-content: center;
+  
   flex-direction: column;
-  margin: 0 auto;
-  width: 100%;
+ margin: 0 auto;
+  width: auto;
 }
 
 
@@ -48,7 +50,7 @@
 .hero_video {
   width: 69%;
   margin-top: 0;
-  margin-left: 0;
+  margin-left: 3rem;
 }
 .hero_video img {
   max-width: 64rem;
@@ -111,27 +113,39 @@
 }
 
 .hero_items {
+  text-align: center;
   margin-top: 15rem;
+  margin-bottom: 10rem;
   width: 112rem;
-  position: relative;
+  
   display: grid;
   grid-template-columns: 44% 37% 18%;
   grid-gap: 0.1rem;
+  height: auto;
+
+  
+    position: relative;
+  
+    
+  
 }
 
 .hero_items1 {
   display: grid;
   grid-template-rows: 70% 30%;
   grid-gap: 0.1rem;
+  
 }
 
-.hero_items1_pic {
+.hero_items1_pic img{
   width: 44.84em;
-  overflow: hidden;
+  border-radius: 1.6rem;
+  
 }
 
 .hero_items1_desc svg {
   width: 44.8rem;
+  
 }
 
 .hero_items2 {
@@ -233,8 +247,65 @@
   .hero_video {
     width: 62%;
   }
+  .hero_items {
+    
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 0.1rem;
+    position: relative;
+  }
+ 
+  .hero_items1 {
+    
+    grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   width: 100%;
+  }
+  .hero_items3 {
+    
+    grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 3;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  .hero_items2 {
+    
+    grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   text-align: center;
+   width: 100%;
+   border-right: #141416;
+  }
+  .items3_button, .items3_attention {
+    display: none;
+  }
+  .items3_item {
+    width: 90%;
+    margin-right: 6rem;
+    
+   
+  }
+ .items3_text {
+  width: 96%;
+ }
+ .border {
+  border-bottom: #141416;
+ }
+
+ .hero_items1_desc svg {
+  margin-top: -5rem;
   
 }
+  }
+  
+
 
 @media (max-width: 48em) {
   .hero_item {
@@ -337,4 +408,35 @@
     width: 70.4rem;
     height: 9.6rem;
   }
+
+  /*items 3*/
+  .hero_items2 {
+    display: none;
+  }
+  .hero_items {
+    
+    
+    display: block;
+    
+  }
+  .hero_items1 img{
+    
+width: 70%;
+text-align: center;
+overflow: hidden;
+  }
+  .hero_items1_desc svg {
+    width: 77rem;
+    
+  }
+  .mobile3 {
+    display: none;
+  }
+  .hero_items3 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  
 }
