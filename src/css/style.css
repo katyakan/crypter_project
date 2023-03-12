@@ -753,6 +753,7 @@ input {
   .hero_items1_desc svg {
     margin-top: -5rem;
   }
+  /*sellers item*/
 }
 @media (max-width: 48em) {
   .hero_item {
@@ -875,15 +876,17 @@ input {
 }
 
 .sellers1 {
-  padding-top: 15rem;
   position: relative;
   display: flex;
   justify-content: space-between;
+  text-align: left;
+  padding: 7rem 3rem 0 3rem;
 }
 
 .sellers1_left svg {
   height: 1.5rem;
-  margin-left: -12rem;
+  margin-left: 1rem;
+  text-align: left;
 }
 
 .sellers1_left p {
@@ -893,6 +896,7 @@ input {
   font-size: 2.4rem;
   line-height: 3.2rem;
   color: #777e91;
+  text-align: left;
 }
 
 .sellers1_left span {
@@ -1017,6 +1021,57 @@ input {
   margin-top: 20rem;
 }
 
+@media (max-width: 70em) {
+  .display_none {
+    display: none;
+  }
+  .left_button {
+    position: absolute;
+    margin: 20rem 40rem 0 50rem;
+  }
+  .right_button {
+    position: absolute;
+    margin: 18rem 42rem 3rem 63rem;
+  }
+}
+@media (max-width: 48em) {
+  .main {
+    width: fit-content;
+  }
+  .sellers2 {
+    margin: 0 3rem;
+  }
+}
+@media (max-width: 380px) {
+  .sellers2_item:not(:nth-last-of-type(5)) {
+    display: none;
+  }
+  .sellers2_item {
+    width: 44rem;
+    height: 50rem;
+  }
+  .seller {
+    height: 100rem;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .sellers1_right {
+    display: none;
+  }
+  .left_button {
+    position: absolute;
+    margin: 50rem 60rem 0 50rem;
+  }
+  .right_button {
+    position: absolute;
+    margin: 48rem 62rem 3rem 63rem;
+  }
+  .sellers1, .sellers2 {
+    justify-content: center;
+    text-align: center;
+  }
+}
 .upload_main {
   height: 92rem;
   border-bottom: 0.2rem solid #353945;
