@@ -1,0 +1,169 @@
+.collections {
+  margin-top: -2rem;
+  background-color: #23262f;
+  height: 78rem;
+  box-sizing: border-box;
+  padding: 12rem 0 12rem 0;
+
+}
+.collections img:hover {
+  transform: scale(1.1);
+}
+.collections_top {
+  display: flex;
+  justify-content: space-between;
+}
+.collections_arrow {
+  display: none;
+}
+.collections p {
+  justify-content: left;
+}
+.collections_title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.01em;
+  color: #FCFCFD;
+  margin-bottom: 6.8rem;
+  
+}
+.collections_main {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+ box-sizing:border-box
+}
+.collections_item {
+  width: auto;
+}
+.collections_img_container {
+ 
+  display: grid;
+  gap: 1rem;
+ grid-template-columns: 1fr 1fr 1fr;
+ text-align: center;
+}
+.a  {
+  width: 35rem;
+  height: 24rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+
+  grid-area: 1 / 1 / span 2 / span 3;
+}
+.a img {
+border-radius: .8rem;
+width: 35rem;
+}
+
+.b, .c, .d {
+  width: 11rem;
+  height: 7.5rem;
+  //margin: .1rem;
+  overflow: hidden;
+}
+
+.b img, .c img, .d img {
+  border-radius: .8rem;
+  width: 11rem;
+}
+.collections_name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #FCFCFD;
+  margin: 1rem 0;
+}
+.collections_desc {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  
+  
+}
+.collection_desc_client {
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #E6E8EC;
+}
+.collections_desc img {
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 4.8rem;
+  margin-right: 1rem;
+}
+
+.collections_desc2 {
+padding: .3rem;
+  border: .1rem solid #FCFCFD;
+}
+
+@media (max-width: 70em) {
+  .collections {
+    margin-top: 12rem;
+  }
+  .collections_top {
+    display: flex;
+    justify-content: space-between;
+  }
+ .collections_arrow {
+  display: block;
+
+
+ } 
+ .bid_arrow_col {
+  display: flex;
+
+ }
+ .bid_arrow_col:first-child svg{
+  width: 2.4rem;
+  height: 2.4rem;
+ 
+
+ }
+ .bid_arrow_col:last-child svg{
+  width: 4rem;
+  height: 4rem;
+  
+
+ }
+}
+@media (max-width: 768px) {
+  .collections_top {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .collections_main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: start;
+    
+  }
+  .collections_item:last-of-type {
+    display: none;
+  }
+  .collections_item {
+    margin-right: 7rem;
+  }
+}
+@media (max-width: 380px) {
+  .collections_item:first-of-type {
+    display: none;
+    
+  }
+  .collections_main {
+   justify-content: center;
+   
+} 
+}

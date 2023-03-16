@@ -2,7 +2,10 @@
   margin-top: -2rem;
   background-color: #23262f;
   height: 66.3rem;
-  
+  box-sizing: border-box;
+
+ //width: 100%;
+    
 }
 
 .sellers1 {
@@ -78,7 +81,7 @@
 }
 .sellers2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 5rem;
 }
 .sellers2_item {
