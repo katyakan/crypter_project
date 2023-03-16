@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/favicon.ico" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="./img/logo/favicon.ico" type="image/x-icon">
+  <script src="" defer></script>
+  <title>Edit profile></title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navigation">
+        <div class="header_block_logo">
+          <a href="./index.html">
+            <img src="./img/logo/logo.svg" alt="" />
+          </a>
+        </div>
+        <div class="header_block">
+          <svg class="divider">
+            <use xlink:href="./img/logo/sprite.svg#divider"></use>
+          </svg>
+        </div>
+        <div class="header_block">
+          <a href="#" class="header__link1">Discover &nbsp;&nbsp;</a>
+        </div>
+        <div class="header_block_how">
+          <a href="./faq.html" class="header__link2">How it work</a>
+        </div>
+        <div class="header_block">
+          <form action="#" class="search">
+            <input type="text" class="header_input" placeholder="Search" />
+            <button class="">
+              <svg class="header_search">
+                <use xlink:href="./img/logo/sprite.svg#search"></use>
+              </svg>
+              <!--  <img src="./img/logo/search.svg" alt="" class="" /> -->
+            </button>
+          </form>
+        </div>
+        <div class="header_block header_notification"><svg class="notification">
+            <use xlink:href="./img/logo/sprite.svg#notification"></use>
+          </svg></div>
+        <div class="header_block header_button_upload"><a href="./upload.html">
+            <svg class="button_upload">
+              <use xlink:href="./img/logo/sprite.svg#button_upload"></use>
+            </svg></a></div>
+        <div class="header_block_wallet">
+          <a href="./wallet.html">
+            <svg class="button_wallet">
+              <use xlink:href="./img/logo/sprite.svg#button_wallet"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="edit_main">
+    <div class="edit_nav">
+      <div class="container">
+        <div class="edit_nav_links">
+          <div class="edit_nav_links_1">
+            <a href="./profile.html">
+              <svg class="button_upload">
+                <use xlink:href="./img/logo/sprite.svg#button"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="upload_nav_links_2"> <a href="./profile.html">
+              <p>Profile &nbsp &nbsp &nbsp > &nbsp &nbsp
+            </a> <span>Edit profile</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container_small">
+      <div class="edit_headline">Edit profile</div>
+      <div class="edit_text">
+        <p>You can set preferred display name, create <span> <a href="./profile.html">your profile URL </a></span>and manage other personal settings.
+        </p>
+      </div>
+      <div class="edit_columns">
+        <div class="edit_column_left">
+          <div class="edit_column_left_photo">
+            <img src="./img/original/avatar_green.png" alt="photo">
+          </div>
+          <div class="edit_column_left_photo_description">
+            <div class="edit_column_left_photo_description"><p>Profile photo</p></div>
+            <div class="edit_column_left_photo_description_small"><p>We recommend an image
+              of at least 400x400.Gifs work too 🙌</p></div>
+            <div class="edit_column_left_photo_description"><a href="./upload.html">
+              <svg class="button_upload">
+                <use xlink:href="./img/logo/sprite.svg#upload_small"></use>
+              </svg>
+            </a></div>
+          </div>
+        </div>
+        <div class="edit_column_right">
+          <form action="#">
+          <div class="edit_column_right_block_title"><p>Account info</p></div>
+          <div class="edit_column_right_block">
+            <label for="name">display name</label><br>
+            <input type="name" id="name"placeholder="Enter your display name">
+          </div>
+          <div class="edit_column_right_block">
+            <label for="url">Custom URL</label><br>
+            <input type="url" id="url"placeholder="ui8.net/Your custom URL"></div>
+          <div class="edit_column_right_block">
+            <label for="bio">BIO</label>
+
+<textarea id="bio" name="bio" rows="7" cols="65">
+  About yourselt in a few words
+</textarea>
+          </div>
+          <div class="edit_column_right_block_title"><p>Social</p></div>
+          <div class="edit_column_right_block">
+            <label for="website">portfolio or website</label><br>
+            <input type="url" id="website"placeholder="Enter URL">
+          </div>
+          <div class="edit_column_right_block_twitter">
+  
+            <label for="twitter">Twitter</label><br/>
+            <input id="twitter" type="text" pattern="^@[A-Za-z0-9_]{1,15}$" required placeholder="@twitter username">
+            <input type="submit" value="verify account">
+            
+          </div>
+          <div class="edit_column_right_block"><a href="#">
+            <svg class="button_edit">
+              <use xlink:href="./img/logo/sprite.svg#add_social"></use>
+            </svg>
+          </a></div>
+          <div class="edit_column_right_block_last">
+            <p>To update your settings you should sign message through your wallet. Click 'Update profile' then sign the message</p>
+          </div>
+          <div class="edit_column_right_block_buttons"> 
+             <input type="submit" value="Update Profile">
+             <input type="reset" value=" ⊗ Clear all">
+       </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+
+  </main>
+  <footer>`
+    <div class="container">
+      <div class="footer_base">
+        <div class="footer_column">
+          <div class="footer_logo">
+            <a href="./index.html">
+              <img src="./img/logo/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="footer_text">
+            <p>The New Creative <br> Economy.</p>
+          </div>
+        </div>
+        <div class="footer_column">
+          <div class="footer_link1">
+            <p>Stacks</p>
+          </div>
+          <div class="footer_link"><a href="#">Discover</a></div>
+          <div class="footer_link"><a href="#">Connect wallet</a></div>
+          <div class="footer_link"><a href="#">Create item</a></div>
+        </div>
+        <div class="footer_column">
+          <div class="footer_link1">
+            <p>Info</p>
+          </div>
+          <div class="footer_link"><a href="#">Download</a></div>
+          <div class="footer_link"><a href="#">Demos</a></div>
+          <div class="footer_link"><a href="#">Support</a></div>
+
+        </div>
+        <div class="footer_column">
+          <div class="footer_link1">
+            <p>Join newsletter</p>
+          </div>
+          <div class="footer_label">
+            <p>Subscribe our newsletter to get more free design <br> course and resource</p>
+          </div>
+          <div class="footer_email">
+
+            <form action="#" class="search">
+              <input type="email" class="header_input" placeholder="Enter your email" />
+              <button class="">
+                <svg class="header_search">
+                  <use xlink:href="./img/logo/sprite.svg#right_blue"></use>
+                </svg>
+
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer_base2">
+        <div>
+          <p>Copyright © 2021 UI8 LLC. All rights reserved</p>
+        </div>
+        <div>
+          <p>We use cookies for better service. &nbsp <span><a href="#">Accept</a></span></p>
+        </div>
+      </div>
+  </footer>
+</body>
+
+</html>

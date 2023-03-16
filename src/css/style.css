@@ -2099,3 +2099,217 @@ input {
     width: 100%;
   }
 }
+.edit_main {
+  height: 144rem;
+  border-bottom: 0.2rem solid #353945;
+}
+
+.edit_nav {
+  border-bottom: 0.2rem solid #353945;
+  position: relative;
+  align-items: center;
+  height: 8.1rem;
+  padding-top: 2rem;
+}
+
+.edit_nav_links {
+  align-items: center;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit_nav_links_1 svg {
+  width: 15.3rem;
+  height: 4rem;
+}
+
+.edit_nav_links_2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: #777e91;
+}
+
+.edit_nav_links_2 span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: #FCFCFD;
+}
+
+.container_small {
+  padding: 0 0rem;
+  width: 73.6rem;
+  margin: 0 auto;
+}
+
+.edit_column_left_photo img {
+  width: 12.8rem;
+  margin-right: 3.2rem;
+}
+
+.edit_headline {
+  margin-top: 8rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.02em;
+  color: #FCFCFD;
+}
+
+.edit_text {
+  margin-top: 1.6rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #777E91;
+}
+
+.edit_text a {
+  color: #FCFCFD;
+}
+
+.edit_columns {
+  margin-top: 6.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit_column_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 49%;
+}
+
+.edit_column_right {
+  width: 49%;
+}
+
+.edit_column_right_block_twitter input[type=text] {
+  border: 2px solid #353945;
+  border-radius: 12px;
+  width: 352px;
+  height: 48px;
+  background: #141416;
+}
+
+input[type=reset] {
+  margin-left: 2rem;
+  height: 48px;
+  background: #141416;
+  border: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  text-align: right;
+  /* Neutrals/4 */
+  color: #777E91;
+}
+
+input[type=text]:focus {
+  border: 1px solid #000;
+}
+
+input[type=submit] {
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  background-color: #3772FF;
+  color: #FCFCFD;
+  border: 0.2rem solid #353945;
+  border-radius: 9rem;
+  margin-left: -15rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: #FCFCFD;
+}
+
+.edit_column_right_block_buttons {
+  text-align: center;
+}
+
+.edit_column_right_block_title p, .edit_column_left_photo_description p {
+  margin-bottom: 3.2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #FCFCFD;
+}
+
+.edit_column_right_block label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #353945;
+}
+
+.edit_column_right input[type=url], .edit_column_right input[type=name] {
+  margin-top: 2.4rem;
+  margin-bottom: 4.4rem;
+  border: 2px solid #353945;
+  border-radius: 12px;
+  width: 352px;
+  height: 48px;
+  background: #141416;
+}
+
+.edit_column_right textarea {
+  margin-top: 2.4rem;
+  margin-bottom: 4.4rem;
+  border: 2px solid #353945;
+  border-radius: 12px;
+  width: 352px;
+  color: #777E91;
+  background: #141416;
+}
+
+.edit_column_right_block_last p, .edit_column_left_photo_description_small p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  color: #777E91;
+  margin-right: 3rem;
+}
+
+.button_edit {
+  width: 230px;
+  height: 40px;
+  margin-top: 4.4rem;
+  margin-bottom: 4.4rem;
+}
+
+.edit_column_right_block_buttons {
+  margin-top: 4.4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
