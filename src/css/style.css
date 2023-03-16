@@ -2313,3 +2313,161 @@ input[type=submit] {
   justify-content: center;
   text-align: center;
 }
+
+.item_columns {
+  margin-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  display: flex;
+  width: 100%;
+  gap: 9.6rem;
+  border-bottom: 0.1rem solid #353945;
+}
+
+.item_column_left {
+  width: 64rem;
+  height: 76.8rem;
+  overflow: hidden;
+  border-radius: 1.6rem;
+}
+
+.item_column_left img {
+  width: 64rem;
+  height: 76.8rem;
+  border-radius: 1.6rem;
+}
+
+.item_column_right {
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item_blocks_title1 p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #FCFCFD;
+  margin-bottom: 2rem;
+}
+
+.item_blocks p {
+  margin-top: 4.6rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777E91;
+}
+
+.item_blocks_border {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 384px;
+  height: 40px;
+  border: 2px solid #353945;
+  border-radius: 36px;
+  background-color: #141416;
+}
+
+.item_blocks_border .first_info a {
+  width: 50px;
+  height: 28px;
+  background: #E6E8EC;
+  border-radius: 100px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  display: flex;
+  align-items: center;
+  /* Neutrals/2 */
+  padding: 1rem;
+  color: #23262F;
+}
+
+.item_links a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  display: flex;
+  align-items: center;
+  /* Neutrals/4 */
+  color: #777E91;
+}
+
+.item_links:hover:not(:first-child) a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  display: flex;
+  align-items: center;
+  /* Neutrals/8 */
+  color: #FCFCFD;
+}
+
+.item_blocks_fixed {
+  margin-top: 3rem;
+  width: 384px;
+  height: 240px;
+  border: 1px solid #777E91;
+  box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+  border-radius: 16px;
+  background: #23262F;
+}
+
+.item_frame {
+  padding: 2rem;
+}
+
+.item_buttons {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.button_item {
+  height: 4.8rem;
+  width: 16.4rem;
+}
+
+.button_item svg {
+  height: 4.8rem;
+  width: 16.4rem;
+}
+
+.button_item:hover {
+  transform: scale(1.05);
+}
+
+.item_price p {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777E91;
+}
+
+.item_price span {
+  color: #FCFCFD;
+}
