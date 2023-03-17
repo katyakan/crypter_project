@@ -2,9 +2,13 @@
  /*bid*/
  .bid_container {
   display: flex;
-  justify-content: space-between
-
+  justify-content: space-between;
+  box-sizing: border-box;
 }
+  .bid img:hover {
+    @include larger;
+  }
+
  .bid_item {
   width: 24rem;
   height: 30.3rem;
