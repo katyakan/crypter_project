@@ -452,6 +452,16 @@ input {
     display: none;
   }
 }
+@media (max-width: 380px) {
+  .header_block_logo img {
+    width: 57rem;
+    margin-left: -7rem;
+  }
+  .header_burger svg {
+    width: 9rem;
+    margin-right: 5rem;
+  }
+}
 .hero {
   display: flex;
   justify-content: center;
@@ -1069,6 +1079,10 @@ input {
   border-bottom: 0.2rem solid #353945;
 }
 
+.upload_block_mobile {
+  display: none;
+}
+
 .upload_block_text svg:hover, .upload_nav_links1 svg:hover {
   transform: scale(1.1);
 }
@@ -1131,8 +1145,13 @@ input {
   gap: 2.4rem;
   width: 35.2rem;
   height: 36rem;
-  border: 1px solid #353945;
+  border: 0.1rem solid #353945;
   border-radius: 1.6rem;
+  overflow: hidden;
+}
+
+.upload_block_item img {
+  width: 33rem;
 }
 
 .upload_block_text svg {
@@ -1194,6 +1213,69 @@ input {
   color: #FCFCFD;
 }
 
+@media (max-width: 780px) {
+  .upload_main {
+    width: fit-content;
+    border-bottom: 0.2rem solid #353945;
+  }
+}
+@media (max-width: 380px) {
+  .upload_nav {
+    border: none;
+  }
+  .upload_nav_links_2 {
+    display: none;
+  }
+  .upload_nav_links {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    align-items: center;
+    height: 12rem;
+  }
+  .upload_nav_links_1 svg {
+    width: 45rem;
+    height: 12rem;
+    margin-bottom: 5rem;
+  }
+  .upload_headline {
+    margin-top: 15rem;
+    padding-top: 5rem;
+    border-top: 0.1rem solid #353945;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15rem;
+    line-height: 15rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  .upload_headline2 {
+    padding: 5rem;
+    margin-top: 1.6rem;
+    margin-bottom: 8.1rem;
+    font-size: 4.2rem;
+    line-height: 7.2rem;
+  }
+  .upload_block {
+    display: none;
+  }
+  .upload_block_mobile {
+    display: block;
+    margin-bottom: 7rem;
+    text-align: center;
+  }
+  .upload_item_mobile img {
+    width: 90rem;
+    margin-left: 5rem;
+  }
+  .upload_main {
+    height: fit-content;
+  }
+  .upload_undertext p {
+    font-size: 3.62rem;
+    line-height: 6rem;
+  }
+}
 .wallet {
   border-bottom: 0.2rem solid #353945;
 }
