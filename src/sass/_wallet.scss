@@ -4,21 +4,20 @@
 
 .wallet_base {
   height: 102rem;
-    align-items: center;
-   padding: 8rem 0;
-  
+  align-items: center;
+  padding: 8rem 0;
 }
 
 .wallet_text {
   border-bottom: 0.2rem solid #353945;
   font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 4.8rem;
-line-height: 5.6rem;
-letter-spacing: -0.02rem;
-color: #FCFCFD;
-padding-bottom: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.02rem;
+  color: #fcfcfd;
+  padding-bottom: 4rem;
 }
 
 .wallet_description {
@@ -33,17 +32,16 @@ padding-bottom: 4rem;
   flex-direction: row;
   justify-content: space-evenly;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 2.4rem;
-line-height: 3.2rem;
-color: #FCFCFD;
-padding: 2rem;
-width: 54.4rem;
-height: 12.8rem;
-border: .2rem solid  #141416;
-border-radius: 1.6rem;
-
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #fcfcfd;
+  padding: 2rem;
+  width: 54.4rem;
+  height: 12.8rem;
+  border: 0.2rem solid #141416;
+  border-radius: 1.6rem;
 }
 
 .wallet_item:hover {
@@ -51,46 +49,38 @@ border-radius: 1.6rem;
   flex-direction: row;
   justify-content: space-evenly;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 2.4rem;
-line-height: 3.2rem;
-color: #FCFCFD;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #fcfcfd;
 
   width: 54.4rem;
-height: 12.8rem;
-border: .2rem solid #353945;
-border-radius: 1.6rem;
-
-
+  height: 12.8rem;
+  border: 0.2rem solid #353945;
+  border-radius: 1.6rem;
 }
 
-.wallet_item_logo svg{
+.wallet_item_logo svg {
   width: 6.4rem;
-height: 6.4rem;
-align-items: center;
-margin-right: 2rem;
-text-align: center;
-margin-left: -5rem;
-margin-top: 1rem;
-
+  height: 6.4rem;
+  align-items: center;
+  margin-right: 2rem;
+  text-align: center;
+  margin-left: -5rem;
+  margin-top: 1rem;
 }
 .wallet_item_text {
   align-items: center;
-  margin: 2rem 0 1rem -5rem ;
-} 
-.wallet_item_text span{
-
+  margin: 2rem 0 1rem -5rem;
+}
+.wallet_item_text span {
   color: #141416;
 }
-  .wallet_item:hover .wallet_item_text span{
-   
-    color: #FCFCFD;
-   
-    
-  }
-  
- 
+.wallet_item:hover .wallet_item_text span {
+  color: #fcfcfd;
+}
+
 .wallet_block_qr img {
   width: 44.8rem;
   height: 44.8rem;
@@ -102,7 +92,7 @@ margin-top: 1rem;
   height: 5.2rem;
   &:hover {
     transform: scale(1.05);
-}
+  }
 }
 .wallet_block_text {
   font-family: 'DM Sans';
@@ -111,15 +101,63 @@ margin-top: 1rem;
   font-size: 4rem;
   line-height: 4.8rem;
   letter-spacing: -0.01em;
-color: #FCFCFD;
+  color: #fcfcfd;
 }
 .wallet_block_text span {
-
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 2rem;
-  color: #777E91;
+  color: #777e91;
 }
 
+@media (max-width: 780px) {
+  .wallet {
+    width: fit-content;
+  }
+}
+@media (max-width: 380px) {
+  .wallet {
+    width: fit-content;
+    padding-bottom: 80rem;
+  }
+  .wallet_text p {
+    margin-left: 5rem;
+    font-size: 9rem;
+    line-height: 11rem;
+  }
+  .wallet_column:first-of-type {
+    display: none;
+  }
+  .wallet_item img {
+    margin-left: 5rem;
+    overflow: hidden;
+    margin-bottom: 10rem;
+  }
+  .wallet_description img {
+    text-align: center;
+    width: 100rem;
+    height: auto;
+    margin-left: 5rem;
+  }
+  .wallet_column img {
+    margin-bottom: 10rem;
+  }
+  .wallet_block_button svg {
+    width: 40rem;
+    height: 12rem;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    margin-left: 37rem;
+  }
+  .wallet_block_text {
+    margin-left: 5rem;
+    font-size: 8rem;
+    line-height: 9.6rem;
+  }
+  .wallet_block_text span {
+    font-size: 3.4rem;
+    line-height: 5rem;
+  }
+}
