@@ -1,0 +1,80 @@
+.profile_background {
+  height: 32rem;
+  background-image: url('../img/logo/back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile_background_buttons_item {
+  height: 4rem;
+  max-width: 17.2rem;
+  
+}
+.profile_background_buttons {
+  position: absolute;
+  right: 24rem;
+  bottom: 4rem;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.profile_background_buttons svg:hover {
+  transform: scale(1.02);
+}
+.profile_block {
+  display: flex;
+  position: relative;
+  height: 70rem;
+  
+}
+.profile_block_left img{
+  flex-grow: 1;
+  width:  25.6rem;
+  height: 68.9rem;
+position: absolute;
+top: -11.3rem;
+}
+.profile_block_right {
+  flex-grow: 3;
+  position: absolute;
+  right: 0rem;
+  top: 10rem;
+  left: 36rem;
+}
+.profile_block_right_nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-left: 0;
+  margin-bottom: 4rem;
+  width: 49rem;
+}
+.profile_block_right_nav .item_links a{
+margin-right: 1rem;
+
+}
+
+.profile_bid img{
+  width: 21.4rem;
+}
+.profile_bid img:hover {
+  @include larger;
+}
+.first_profile {
+  width: 8.5rem;
+  height: 2.8rem;
+  background: #E6E8EC;
+  border-radius: 10rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+   display: flex;
+  align-items: center;
+    padding: 1rem;
+  color:#23262F;
+}

@@ -59,7 +59,7 @@
 }
 .crypto_left_buttons {
   margin-top: 3rem;
-  //width: auto;
+  
   margin-left: -2rem;
 }
 
@@ -118,6 +118,7 @@
       .crypto_left_buttons {
         flex-direction: column;
       }
+
       .button_wallet {
         display: block;
         width:90%;
