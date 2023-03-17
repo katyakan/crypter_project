@@ -157,3 +157,14 @@ height: 4rem;
    }
 }
 
+@media (max-width: 380px) {
+  .header_block_logo img {
+    width: 57rem;
+    margin-left: -7rem;
+  }
+  .header_burger svg {
+    width: 9rem;
+    margin-right: 5rem;
+  }
+  
+}
