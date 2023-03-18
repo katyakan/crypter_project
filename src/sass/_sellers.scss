@@ -171,8 +171,9 @@
 
   }
   .sellers2_item {
-    width: 44rem;
-    height: 50rem;
+    width: 73%;
+    height: 75rem;
+    margin-bottom: 7rem;
   }
   .seller {
    height: 100rem;
@@ -195,5 +196,40 @@ display: none;;
     justify-content: center;
     text-align: center;
   }
+  .sellers2 {
+    height: 140rem;
+  }
+  .seller {
+    height: 122rem;
+  }
+  .sellers2_item_rating svg {
+    margin-top: -5rem;
+    height: 6rem;
+    width: 45rem;
+
+  }
+  .sellers2_item_rating {
+    margin-top: 12rem;
+    height: 6rem;
+    width: 45rem;
+margin-left: -rem;
+  }
+  .sellers2_item_avatar img {
+    width: 18rem;
+    margin-top: 6rem;
+  }
+
+  .sellers2_item_text p {
+    
+    font-size: 2.8rem;
+    line-height: 4.84rem;
+    
+  }
   
+  .sellers2_item_text span {
+    
+    font-size: 2.4rem;
+    line-height: 4rem;
+    
+  }
 }

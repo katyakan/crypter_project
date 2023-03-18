@@ -1,29 +1,27 @@
-
- /*bid*/
- .bid_container {
+/*bid*/
+.bid_container {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
 }
-  .bid img:hover {
-    @include larger;
-  }
+.bid img:hover {
+  @include larger;
+}
 
- .bid_item {
+.bid_item {
   width: 24rem;
   height: 30.3rem;
-  background: #CDB4DB;
+  background: #cdb4db;
   border-radius: 1.6rem;
   margin-bottom: 22rem;
- 
-  }
-  .bid_item_pic img{
-    border-radius: 1.6rem;
-    width: 25.6rem;
-height: 30.3rem;
-  }
- 
- .bid_item_block_3 svg{
+}
+.bid_item_pic img {
+  border-radius: 1.6rem;
+  width: 25.6rem;
+  height: 30.3rem;
+}
+
+.bid_item_block_3 svg {
   width: 2rem;
   height: 2rem;
   align-items: center;
@@ -33,20 +31,19 @@ height: 30.3rem;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  color: #777E91;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #777e91;
 }
 
 .bid_text {
- font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-letter-spacing: -0.01em;
-color: #FCFCFD;
-
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #fcfcfd;
 }
 .bid_description {
   display: flex;
@@ -55,73 +52,126 @@ color: #FCFCFD;
 }
 
 .bid_description svg:last-child {
-  width:4rem;;
-
+  width: 4rem;
 }
 .bid_description svg:first-child {
-  width:2.4rem;
+  width: 2.4rem;
   margin-right: 3rem;
-
 }
 .bid_item_block_1 svg {
-  width: 68px;
-height: 26px;
-align-items: center;
-margin-left: auto;
-margin-top: .7rem;
-
+  width: 6.8rem;
+  height: 2.6rem;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 0.7rem;
 }
 .bid_item_block_1 {
   align-items: center;
-  margin-bottom: .7rem;
-  
+  margin-bottom: 0.7rem;
 }
 .bid_item_block_2 {
-  border-bottom: .1rem solid #777E90;
-  margin-bottom: .7rem;
+  border-bottom: 0.1rem solid #777e90;
+  margin-bottom: 0.7rem;
   align-items: center;
   //padding: .5rem  0;
   box-sizing: border-box;
   width: 25rem;
   overflow: hidden;
-
-
 }
-.bid_item_block_1, .bid_item_block_2 {
+.bid_item_block_1,
+.bid_item_block_2 {
   display: flex;
   justify-content: space-between;
 }
 
 @media (max-width: 70em) {
-  .bid_item:nth-of-type(8), .bid_item:nth-of-type(1){
+  .bid_item:nth-of-type(8),
+  .bid_item:nth-of-type(1) {
     display: none;
-    
   }
   .bid_item {
-    width: 31%;
+    width: 26rem;
+    height: 30rem;
     text-align: center;
   }
-  .bid_item_pic img{
+  .bid_item_pic {
     background: #141416;
-    width: 35rem;
+    width: 26rem;
+    height: 30rem;
+  }
+  .bid_item_pic img {
+    background: #141416;
+    width: 26rem;
+    height: 30rem;
   }
 
   .bid_container {
     display: flex;
     justify-content: space-around;
-  
   }
   .bid_description {
     display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 8rem 0 8rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8rem 0 8rem;
   }
-
 }
 @media (max-width: 380px) {
-  .bid_item:not(:nth-of-type(2)){
+  .bid_item:not(:nth-of-type(2)) {
     display: none;
-    
   }
+  .bid_item {
+    //margin-left: -35rem;
+    width: 70%;
+    height: 80rem;
+    margin-bottom: 28rem;
+   
+  }
+
+  .bid_item_pic {
+   width: 100%;
+    height: 60rem;
+  }
+ 
+  .bid_item_pic img {
+    width: 100%;
+    height: 80rem;
+  }
+  .bid_item_block_1 p {
+    font-size: 6rem;
+    margin-top: 23rem;
+  }
+  .bid_item_block_2 {
+    border-bottom: 0.1rem solid #777e90;
+    margin-bottom: 0.7rem;
+    margin-top: 5rem;
+    width: 100%;
+   
+  }
+  .bid_item_block_2 img {
+    width: 100%;
+   
+  }
+  .bid_item_block_2_left img {
+    height: 7.2rem;
+    margin-bottom: 2rem;
+   
+  }
+  .bid_item_block_3 p {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-bottom: 3rem;
+  }
+  .bid_item_block2_right p {
+    font-size: 8rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.8rem;
+    line-height:2.8rem;
+   
+    color: #E6E8EC;
+  }
+ 
+  
 }

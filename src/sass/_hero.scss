@@ -2,12 +2,11 @@
   display: flex;
   //align-items: center;
   justify-content: center;
-  
+
   flex-direction: column;
- margin: 0 auto;
+  margin: 0 auto;
   width: auto;
 }
-
 
 .container_button_hero {
   text-align: center;
@@ -17,7 +16,8 @@
   //margin-left: 16rem;
   text-align: center;
   padding: 0;
-  
+  margin-right: 5rem;
+
   margin-top: -2rem;
 }
 .hero_text1 {
@@ -45,7 +45,6 @@
   position: relative;
   width: 112rem;
   display: flex;
-  
 }
 .hero_video {
   width: 69%;
@@ -54,23 +53,22 @@
 }
 .hero_video img {
   max-width: 64rem;
-  border-radius: 1.6rem;;
+  border-radius: 1.6rem;
 }
 .hero_creator {
   width: 30%;
   box-sizing: border-box;
   margin-left: auto;
   text-align: left;
- // align-items: center;
+  // align-items: center;
   margin: 0;
   padding: 0;
   margin-top: 0rem;
-
 }
 .creator_text {
   margin-top: auto;
   align-items: center;
- // text-align: left;
+  // text-align: left;
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
@@ -81,7 +79,7 @@
 }
 
 .creator_frame svg {
- height: 29.6rem;
+  height: 29.6rem;
   margin: 0;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -100,9 +98,8 @@
   margin-bottom: 1rem;
   width: auto;
   height: 4.4rem;
-
 }
-.creator_avatar  svg{
+.creator_avatar svg {
   width: 35.2rem;
 }
 .place_bid {
@@ -117,35 +114,26 @@
   margin-top: 15rem;
   margin-bottom: 10rem;
   width: 112rem;
-  
   display: grid;
   grid-template-columns: 44% 37% 18%;
   grid-gap: 0.1rem;
   height: auto;
-
-  
-    position: relative;
-  
-    
-  
+  position: relative;
 }
 
 .hero_items1 {
   display: grid;
   grid-template-rows: 70% 30%;
   grid-gap: 0.1rem;
-  
 }
 
-.hero_items1_pic img{
+.hero_items1_pic img {
   width: 44.84em;
   border-radius: 1.6rem;
-  
 }
 
 .hero_items1_desc svg {
   width: 44.8rem;
-  
 }
 
 .hero_items2 {
@@ -248,69 +236,57 @@
     width: 62%;
   }
   .hero_items {
-    
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 0.1rem;
     position: relative;
   }
- 
+
   .hero_items1 {
-    
     grid-column-start: 1;
-   grid-column-end: 2;
-   grid-row-start: 1;
-   grid-row-end: 2;
-   width: 100%;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
   }
   .hero_items3 {
-    
     grid-column-start: 1;
-   grid-column-end: 3;
-   grid-row-start: 2;
-   grid-row-end: 3;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .hero_items2 {
-    
     grid-column-start: 2;
-   grid-column-end: 3;
-   grid-row-start: 1;
-   grid-row-end: 2;
-   text-align: center;
-   width: 100%;
-   border-right: #141416;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    width: 100%;
+    border-right: #141416;
   }
-  .items3_button, .items3_attention {
+  .items3_button,
+  .items3_attention {
     display: none;
   }
   .items3_item {
     width: 90%;
     margin-right: 6rem;
-    
-   
   }
- .items3_text {
-  width: 96%;
- }
- .border {
-  border-bottom: #141416;
- }
+  .items3_text {
+    width: 96%;
+  }
+  .border {
+    border-bottom: #141416;
+  }
 
- .hero_items1_desc svg {
-  margin-top: -5rem;
-  
+  .hero_items1_desc svg {
+    margin-top: -5rem;
+  }
+  /*sellers item*/
 }
-/*sellers item*/
-
- 
-
-}
-  
-
-
 
 @media (max-width: 48em) {
   .hero_item {
@@ -328,30 +304,25 @@
   .hero_text1 {
     font-size: 2.4rem;
     line-height: 2.4rem;
-}
+  }
   .hero_text2 {
     font-size: 8rem;
-  margin-top: 4rem;
+    margin-top: 4rem;
     text-align: center;
-    margin-right: 2rem; 
-   margin-right: 13rem;
-   margin-left: 13rem;
-   line-height: 8rem;
-    
-
-}
-.hero_text_container {
- align-items: center;
- text-align: center;
- box-sizing: border-box;
-
- 
-}
-.button_hero {
-  width: 36rem;
-  margin-top: 4rem;
-}
-
+    margin-right: 2rem;
+    margin-right: 13rem;
+    margin-left: 13rem;
+    line-height: 8rem;
+  }
+  .hero_text_container {
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .button_hero {
+    width: 36rem;
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 380px) {
@@ -361,8 +332,8 @@
     text-align: center;
   }
   .hero_creator {
-    width: auto;
-    margin: 0 auto;
+    width: 100%;
+    
   }
   .hero_video {
     width: auto;
@@ -370,41 +341,37 @@
     box-sizing: border-box;
   }
   .creator_text {
-    margin-top: auto;
-    align-items: center;
-   // text-align: left;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12.8rem;
-    line-height: 12.8rem;
-    letter-spacing: -0.02em;
-    color: #fcfcfd;
+    margin-left: 15rem;
+    font-size: 12rem;
+    line-height: 12rem;
+    margin-top: 10rem;
   }
-  
-  .creator_frame svg {
-   height: 69rem;
-    margin: 0;
+
+  .creator_frame {
+    margin-left: 15rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    width: 70rem;
+    width: 70%;
   }
-  
+
   .creator_place_bid {
+    margin-left: 15rem;
     margin-top: 0;
-    width: 70.4rem;
+    width: 69rem;
     height: 9.6rem;
     margin-bottom: 1rem;
   }
-  
+  .creator_place_bid:first-child svg {
+    margin-bottom: 5rem;
+  }
   .creator_price {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 15rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     width: auto;
     height: 8.8rem;
-  
   }
-  .creator_avatar  svg{
+  .creator_avatar svg {
     width: 70.4rem;
   }
   .place_bid {
@@ -419,20 +386,16 @@
     display: none;
   }
   .hero_items {
-    
-    
     display: block;
-    
   }
-  .hero_items1 img{
-    
-width: 70%;
-text-align: center;
-overflow: hidden;
+  .hero_items1 img {
+    width: 70%;
+    text-align: center;
+    overflow: hidden;
   }
   .hero_items1_desc svg {
-    width: 77rem;
-    
+    width: 70rem;
+    margin-top: 1rem;
   }
   .mobile3 {
     display: none;
@@ -442,6 +405,27 @@ overflow: hidden;
     text-align: center;
     margin: 0 auto;
   }
-
-  
+  .hero_text1 {
+    margin-left: 10rem;
+    margin-top: 15rem;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .hero_text2 {
+    margin-left: 10rem;
+    font-size: 8rem;
+    line-height: 9.6rem;
+  }
+  .button_hero svg {
+    width: 36rem;
+  }
+  .creator_frame img {
+    margin-left: 10rem;
+    width: 70%;
+    text-align: center;
+    overflow: hidden;
+  }
+  .creator_frame {
+    //width: 60rem;
+  }
 }

@@ -5,28 +5,24 @@
   width: 100%;
   position: relative;
   height: 80rem;
- 
 }
 .crypto_left {
   align-items: center;
   width: 49%;
-  
 }
 .crypto_right {
- width: 60rem;
- height: 60rem;
- width: 49%;
-
+  width: 60rem;
+  height: 60rem;
+  width: 49%;
 }
 
-.crypto_right  img{
+.crypto_right img {
   margin: 8rem 0rem 8rem 9rem;
   width: 64rem;
- height: 64rem;
- position: absolute;
- left: 43rem;
- 
- }
+  height: 64rem;
+  position: absolute;
+  left: 43rem;
+}
 .crypto_left_text:first-of-type p {
   font-family: 'Poppins';
   font-style: normal;
@@ -34,8 +30,7 @@
   font-size: 1.6rem;
   line-height: 1.6rem;
   text-transform: uppercase;
-  color: #777E91;
-
+  color: #777e91;
 }
 .crypto_left_text:nth-child(2) p {
   margin-top: 2rem;
@@ -44,8 +39,8 @@
   font-weight: 700;
   font-size: 6.4rem;
   line-height: 6.4rem;
-    letter-spacing: -0.02em;
-    color: #FCFCFD;
+  letter-spacing: -0.02em;
+  color: #fcfcfd;
 }
 
 .crypto_left_text:nth-child(3) p {
@@ -55,11 +50,11 @@
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  color: #777E91;
+  color: #777e91;
 }
 .crypto_left_buttons {
   margin-top: 3rem;
-  
+
   margin-left: -2rem;
 }
 
@@ -68,20 +63,20 @@
     margin-left: 5rem;
   }
   .crypto_right {
-    width: 60rem;
-    height: 60rem;
-    width: 45%;
-   
-   }
-   
-   .crypto_right  img{
-     margin: 8rem 5rem 8rem 1rem;
-     width: 60rem;
-    height: 60rem;
+    width: 50rem;
+    height: 45rem;
+    width: 30%;
+    margin-right: 10rem;
+    overflow: hidden;
+  }
+
+  .crypto_right img {
+    margin: 8rem 10rem 8rem 1rem;
+    width: 50rem;
+    height: 45rem;
     position: absolute;
-    left: 43rem;
-    
-    }
+    left: 40rem;
+  }
 }
 
 @media (max-width: 380px) {
@@ -114,17 +109,16 @@
     width: 110rem;
     height: 110rem;
     text-align: center;
-      }
-      .crypto_left_buttons {
-        flex-direction: column;
-      }
+  }
+  .crypto_left_buttons {
+    flex-direction: column;
+  }
 
-      .button_wallet {
-        display: block;
-        width:90%;
-      }
-      .button_wallet:first-child svg{
-       
-        width:90%;
-      }
-    }
+  .button_wallet {
+    display: block;
+    width: 90%;
+  }
+  .button_wallet:first-child svg {
+    width: 90%;
+  }
+}
