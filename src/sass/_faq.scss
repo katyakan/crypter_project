@@ -2,6 +2,9 @@
   border-bottom: .1rem solid #777E90;
 
 }
+.faq_general_mobile {
+  display: none;
+}
 .faq1 {
   margin-top: 13.2rem;
   margin-bottom: 5rem;
@@ -22,9 +25,7 @@
   display: flex;
   margin-bottom: 3rem;
 }
-.faq_menu_links_logo {
 
-}
 .faq1_main_strokes {
   width: 69%;
 }
@@ -169,3 +170,63 @@ height: 40px;
  }
 
 
+@media (max-width: 780px) {
+  .faq_base {
+    width: fit-content;
+  }
+  .faq1_main {
+    margin-left: 5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 3.2rem;
+  }
+  .faq1_main_menu {
+    width: 99%;
+  }
+  .faq1_main_strokes {
+    width: 95%;
+    margin-right: 5rem;
+  }
+}
+@media (max-width: 380px) {
+  .faq1_main_strokes {
+width: 95%;
+  }
+  .faq1_text {
+      font-size: 9.6rem;
+  line-height: 11.2rem;
+  margin-left: 5rem;
+  
+  }
+  
+  .faq1_text2 {
+    margin-left: 5rem;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+
+  }
+  .faq1_text2 a {
+    color: #3772FF;
+  }
+  .first_row {
+  margin-left: 5rem;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    
+  
+  }
+  .faq_general_mobile {
+    display: inline-block;
+    width: 60rem;
+    
+  }
+  .faq_general_mobile svg {
+   
+    width: 94rem;
+   
+  }
+  .faq_menu_links {
+    display: none;
+  }
+}

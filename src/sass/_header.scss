@@ -68,6 +68,11 @@ margin: 0;
   width: 4rem;
 
 }
+.notification1 {
+  height: 4rem;
+  width: 4rem;
+
+}
 
 input {
   color: grey;
@@ -155,6 +160,11 @@ height: 4rem;
    .header_block_wallet, .header_button_upload, .header_notification, .header_input, .header_search {
     display: none;
    }
+   .notification1 {
+    height: 8rem;
+    width: 8rem;
+  
+  }
 }
 
 @media (max-width: 380px) {
