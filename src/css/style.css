@@ -423,7 +423,12 @@ input {
 
 /*media*/
 @media (max-width: 70em) {
-  .discover, .divider, .header_block_how, .discover a, .header_link1 a, .header_block_discover {
+  .discover,
+  .divider,
+  .header_block_how,
+  .discover a,
+  .header_link1 a,
+  .header_block_discover {
     display: none;
   }
   .navigation {
@@ -453,7 +458,11 @@ input {
     width: 6.4rem;
     height: 6.4rem;
   }
-  .header_block_wallet, .header_button_upload, .header_notification, .header_input, .header_search {
+  .header_block_wallet,
+  .header_button_upload,
+  .header_notification,
+  .header_input,
+  .header_search {
     display: none;
   }
   .notification1 {
@@ -1110,7 +1119,8 @@ input {
     position: absolute;
     margin: 48rem 62rem 3rem 63rem;
   }
-  .sellers1, .sellers2 {
+  .sellers1,
+  .sellers2 {
     justify-content: center;
     text-align: center;
   }
@@ -1153,7 +1163,8 @@ input {
   display: none;
 }
 
-.upload_block_text svg:hover, .upload_nav_links1 svg:hover {
+.upload_block_text svg:hover,
+.upload_nav_links1 svg:hover {
   transform: scale(1.1);
 }
 
@@ -1195,7 +1206,7 @@ input {
   font-size: 1.4rem;
   line-height: 1.6rem;
   text-align: center;
-  color: #FCFCFD;
+  color: #fcfcfd;
 }
 
 /*block*/
@@ -1246,7 +1257,7 @@ input {
   line-height: 2rem;
   align-items: center;
   text-align: center;
-  color: #777E91;
+  color: #777e91;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 13.1rem;
@@ -1261,7 +1272,7 @@ input {
   line-height: 5.6rem;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #FCFCFD;
+  color: #fcfcfd;
 }
 
 .upload_headline2 {
@@ -1276,11 +1287,11 @@ input {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  color: #777E91;
+  color: #777e91;
 }
 
 .upload_headline2 span {
-  color: #FCFCFD;
+  color: #fcfcfd;
 }
 
 @media (max-width: 780px) {
@@ -1515,7 +1526,7 @@ input {
   }
 }
 .faq_base {
-  border-bottom: 0.1rem solid #777E90;
+  border-bottom: 0.1rem solid #777e90;
 }
 
 .faq_general_mobile {
@@ -1558,7 +1569,7 @@ input {
   font-size: 4.8rem;
   line-height: 5.6rem;
   letter-spacing: -0.02em;
-  color: #FCFCFD;
+  color: #fcfcfd;
 }
 
 .faq1_text2 {
@@ -1567,11 +1578,11 @@ input {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  color: #E6E8EC;
+  color: #e6e8ec;
 }
 
 .faq1_text2 a {
-  color: #3772FF;
+  color: #3772ff;
 }
 
 .first_row {
@@ -1581,7 +1592,7 @@ input {
   font-size: 1.2rem;
   line-height: 1.2rem;
   text-transform: uppercase;
-  color: #777E90;
+  color: #777e90;
 }
 
 .faq_menu_links_logo svg {
@@ -1598,11 +1609,11 @@ input {
   line-height: 16px;
   display: flex;
   align-items: center;
-  color: #FCFCFD;
+  color: #fcfcfd;
 }
 
 .grey {
-  color: #777E91;
+  color: #777e91;
 }
 
 /*strokes*/
@@ -1636,7 +1647,7 @@ input {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #FCFCFD;
+  color: #fcfcfd;
   align-items: center;
 }
 
@@ -1679,7 +1690,7 @@ input {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #777E91;
+  color: #777e91;
   align-items: center;
 }
 
@@ -1723,7 +1734,7 @@ input {
     line-height: 4.8rem;
   }
   .faq1_text2 a {
-    color: #3772FF;
+    color: #3772ff;
   }
   .first_row {
     margin-left: 5rem;
@@ -1912,7 +1923,7 @@ input {
     font-weight: 500;
     font-size: 2.8rem;
     line-height: 2.8rem;
-    color: #E6E8EC;
+    color: #e6e8ec;
   }
 }
 .collections {
@@ -2132,7 +2143,8 @@ input {
     line-height: 6.4rem;
     margin: 1rem 0;
   }
-  .collection_desc_client, .collection_desc2 {
+  .collection_desc_client,
+  .collection_desc2 {
     font-size: 3.8rem;
     line-height: 4.8rem;
   }
@@ -3243,7 +3255,7 @@ input[type=submit] {
 .first_profile {
   width: 8.5rem;
   height: 2.8rem;
-  background: #E6E8EC;
+  background: #e6e8ec;
   border-radius: 10rem;
   font-family: "DM Sans";
   font-style: normal;
@@ -3253,7 +3265,7 @@ input[type=submit] {
   display: flex;
   align-items: center;
   padding: 1rem;
-  color: #23262F;
+  color: #23262f;
 }
 
 /*footer*/

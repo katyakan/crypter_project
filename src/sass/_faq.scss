@@ -1,6 +1,5 @@
 .faq_base {
-  border-bottom: .1rem solid #777E90;
-
+  border-bottom: 0.1rem solid #777e90;
 }
 .faq_general_mobile {
   display: none;
@@ -32,24 +31,24 @@
 
 .faq1_text {
   font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 4.8rem;
-line-height: 5.6rem;
-letter-spacing: -0.02em;
-color: #FCFCFD;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.02em;
+  color: #fcfcfd;
 }
 
 .faq1_text2 {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 1.6rem;
-line-height: 2.4rem;
-color: #E6E8EC;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #e6e8ec;
 }
 .faq1_text2 a {
-  color: #3772FF;
+  color: #3772ff;
 }
 .first_row {
   font-family: 'Poppins';
@@ -57,28 +56,27 @@ color: #E6E8EC;
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.2rem;
-    text-transform: uppercase;
-  color: #777E90;
-
+  text-transform: uppercase;
+  color: #777e90;
 }
 .faq_menu_links_logo svg {
   width: 1.6rem;
   height: 1.6rem;
 }
-.faq_menu_links_text  {
+.faq_menu_links_text {
   margin-left: 2rem;
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-    display: flex;
+  display: flex;
   align-items: center;
-    color: #FCFCFD;
+  color: #fcfcfd;
 }
 
- .grey {
-  color: #777E91;
+.grey {
+  color: #777e91;
 }
 
 /*strokes*/
@@ -86,89 +84,87 @@ color: #E6E8EC;
 .faq2 {
   box-sizing: border-box;
 }
-  .accordion {
-    transform: translateZ(0);
-    background:  #141416;
-    border-top: 1px solid #353945;
-    align-items: center;
-    
-  }
-  
-  .accordion>.accordion-toggle {
-    display: none;
-    position: absolute;
-    opacity: 0;
-  }
-  
-  .accordion>label {
-    display: block;
-    position: relative;
-    height: 96px;
-    line-height: 50px;
-    padding: 40px 5px 10px 0;
-   
-   // border-top: 1px solid lightgray;
-   // border-bottom: 1px solid lightgray;
-    background:  #141416;
-      cursor: pointer;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FCFCFD;
-    align-items: center;
-  }
-  
-  .accordion>label:after {
-    content: '';
-    position: absolute;
-    top: 42px;
-    right: 20px;
-    width: 8px;
-    height: 8px;
-    border-left: 2px solid #555;
-    border-top: 2px solid #555;
-    transform: rotate(-135deg);
-    transition: 0.4s transform;
-  }
-  
-  .accordion>section {
-    overflow: hidden;
-    height: 0;
-    transition: all .4s;
-  }
-  
-  .accordion>.accordion-toggle:checked~label:after {
-    transform: rotate(45deg);
-    top: 16px;
-  }
-  
-  .accordion>.accordion-toggle:checked~section {
-    height: 24rem;
-  }
-  
-  .accordion>section p {
-    margin: 10px 0;
-    padding: 0;
-  }
+.accordion {
+  transform: translateZ(0);
+  background: #141416;
+  border-top: 1px solid #353945;
+  align-items: center;
+}
 
-  .toggle_text {
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #777E91;
-align-items: center;
-  }
+.accordion > .accordion-toggle {
+  display: none;
+  position: absolute;
+  opacity: 0;
+}
 
- .faq_button_strokes svg {
+.accordion > label {
+  display: block;
+  position: relative;
+  height: 96px;
+  line-height: 50px;
+  padding: 40px 5px 10px 0;
+
+  // border-top: 1px solid lightgray;
+  // border-bottom: 1px solid lightgray;
+  background: #141416;
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fcfcfd;
+  align-items: center;
+}
+
+.accordion > label:after {
+  content: '';
+  position: absolute;
+  top: 42px;
+  right: 20px;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid #555;
+  border-top: 2px solid #555;
+  transform: rotate(-135deg);
+  transition: 0.4s transform;
+}
+
+.accordion > section {
+  overflow: hidden;
+  height: 0;
+  transition: all 0.4s;
+}
+
+.accordion > .accordion-toggle:checked ~ label:after {
+  transform: rotate(45deg);
+  top: 16px;
+}
+
+.accordion > .accordion-toggle:checked ~ section {
+  height: 24rem;
+}
+
+.accordion > section p {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.toggle_text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777e91;
+  align-items: center;
+}
+
+.faq_button_strokes svg {
   margin-top: 1.5rem;
   width: 117px;
-height: 40px;
- }
-
+  height: 40px;
+}
 
 @media (max-width: 780px) {
   .faq_base {
@@ -191,40 +187,33 @@ height: 40px;
 }
 @media (max-width: 380px) {
   .faq1_main_strokes {
-width: 95%;
+    width: 95%;
   }
   .faq1_text {
-      font-size: 9.6rem;
-  line-height: 11.2rem;
-  margin-left: 5rem;
-  
+    font-size: 9.6rem;
+    line-height: 11.2rem;
+    margin-left: 5rem;
   }
-  
+
   .faq1_text2 {
     margin-left: 5rem;
-  font-size: 3.2rem;
-  line-height: 4.8rem;
-
+    font-size: 3.2rem;
+    line-height: 4.8rem;
   }
   .faq1_text2 a {
-    color: #3772FF;
+    color: #3772ff;
   }
   .first_row {
-  margin-left: 5rem;
+    margin-left: 5rem;
     font-size: 2.4rem;
     line-height: 2.4rem;
-    
-  
   }
   .faq_general_mobile {
     display: inline-block;
     width: 60rem;
-    
   }
   .faq_general_mobile svg {
-   
     width: 94rem;
-   
   }
   .faq_menu_links {
     display: none;

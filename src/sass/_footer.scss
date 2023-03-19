@@ -74,7 +74,7 @@
 }
 .footer_search {
   margin-top: 5rem;
- // box-sizing: border-box;
+  // box-sizing: border-box;
   width: 35.2rem;
   height: 4.8rem;
   border: 0.2rem solid #353945;
@@ -96,7 +96,6 @@
 .header_search1 {
   width: 1.7rem;
   height: 1.7rem;
-  
 }
 @media (max-width: 380px) {
   .footer_base {
@@ -111,10 +110,9 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    
   }
   .footer_column:not(:last-child) {
-    border-bottom: .2rem solid #353945;
+    border-bottom: 0.2rem solid #353945;
   }
   .footer_base2 {
     margin-left: 7rem;
@@ -128,7 +126,7 @@
     line-height: 9.6rem;
     margin-bottom: 5rem;
     padding-bottom: 5rem;
-   // border-bottom: .2rem solid #353945;
+    // border-bottom: .2rem solid #353945;
   }
 
   .footer_link1 {
@@ -175,29 +173,26 @@
   }
   .header_input1 {
     margin-top: 5rem;
-   margin-left: 7rem;
+    margin-left: 7rem;
     width: 76rem;
     margin-right: -9rem;
     padding: 6rem 4rem 3rem 4rem;
-  border-radius: 3rem;
-  align-items: center;
+    border-radius: 3rem;
+    align-items: center;
   }
   .header_search1 {
-
     width: 5.1rem;
     height: 5.1rem;
     align-items: center;
   }
-  .header_search1  svg {
+  .header_search1 svg {
     align-items: center;
   }
 
   input[type='email'] {
     font-weight: bold;
-    
+
     font-size: 4.2rem;
     line-height: 4.8rem;
-    
   }
-
 }

@@ -9,10 +9,9 @@
   justify-content: space-between;
 }
 
-
 @mixin larger {
-  box-shadow: 0 1rem 2rem rgba(#FCFCFD, .4);
-  transform:  scale(1.01);
+  box-shadow: 0 1rem 2rem rgba(#fcfcfd, 0.4);
+  transform: scale(1.01);
 }
 // @mixin circle ($width, $height, $border-radius) {
 //   width: $width;

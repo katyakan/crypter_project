@@ -1,15 +1,13 @@
 .upload_main {
   height: 92rem;
   border-bottom: 0.2rem solid #353945;
-
-  
 }
 .upload_block_mobile {
   display: none;
 }
-.upload_block_text svg:hover, .upload_nav_links1 svg:hover {
+.upload_block_text svg:hover,
+.upload_nav_links1 svg:hover {
   transform: scale(1.1);
-
 }
 
 /* links*/
@@ -30,9 +28,7 @@
 .upload_nav_links_1 svg {
   width: 15.3rem;
   height: 4rem;
-  
 }
-
 
 .upload_nav_links_2 {
   font-family: 'DM Sans';
@@ -45,15 +41,13 @@
 }
 .upload_nav_links_2 span {
   font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 1.4rem;
-line-height: 1.6rem;
-text-align: center;
-color: #FCFCFD;
-
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: #fcfcfd;
 }
-
 
 /*block*/
 
@@ -63,18 +57,18 @@ color: #FCFCFD;
   height: 36rem;
   gap: 2.4rem;
 }
-.upload_block_item{
+.upload_block_item {
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 1.6rem 1.6rem 2.4rem;
-gap: 2.4rem;
-width: 35.2rem;
-height: 36rem;
-border: .1rem solid #353945;
-border-radius: 1.6rem;
-overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 1.6rem 2.4rem;
+  gap: 2.4rem;
+  width: 35.2rem;
+  height: 36rem;
+  border: 0.1rem solid #353945;
+  border-radius: 1.6rem;
+  overflow: hidden;
 }
 .upload_block_item img {
   width: 33rem;
@@ -101,11 +95,10 @@ overflow: hidden;
   line-height: 2rem;
   align-items: center;
   text-align: center;
-  color: #777E91;
+  color: #777e91;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 13.1rem;
-
 }
 
 .upload_headline {
@@ -117,13 +110,13 @@ overflow: hidden;
   line-height: 5.6rem;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #FCFCFD;
+  color: #fcfcfd;
 }
 
 .upload_headline2 {
   margin-top: 1.6rem;
-  margin-bottom: 8.1rem;  
-    
+  margin-bottom: 8.1rem;
+
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -133,47 +126,41 @@ overflow: hidden;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  color: #777E91;
-  
+  color: #777e91;
 }
 .upload_headline2 span {
-  color: #FCFCFD;
+  color: #fcfcfd;
 }
 
 @media (max-width: 780px) {
   .upload_main {
-    width:fit-content;
+    width: fit-content;
     border-bottom: 0.2rem solid #353945;
-  
-    
   }
 }
-@media (max-width:380px) {
+@media (max-width: 380px) {
   .upload_nav {
     border: none;
   }
-  .upload_nav_links_2  {
-    display: none; 
-    
+  .upload_nav_links_2 {
+    display: none;
   }
   .upload_nav_links {
     margin-top: 6rem;
     margin-left: 5rem;
-   
+
     align-items: center;
     height: 12rem;
-   
   }
   .upload_nav_links_1 svg {
     width: 45rem;
     height: 12rem;
     margin-bottom: 5rem;
-    
   }
   .upload_headline {
     margin-top: 15rem;
     padding-top: 5rem;
-    border-top: .1rem solid #353945;
+    border-top: 0.1rem solid #353945;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -183,12 +170,11 @@ overflow: hidden;
     letter-spacing: -0.02em;
   }
   .upload_headline2 {
-   padding: 5rem;
+    padding: 5rem;
     margin-top: 1.6rem;
-  margin-bottom: 8.1rem;  
-      font-size: 4.2rem;
-  line-height: 7.2rem;
-  
+    margin-bottom: 8.1rem;
+    font-size: 4.2rem;
+    line-height: 7.2rem;
   }
   .upload_block {
     display: none;
@@ -201,14 +187,12 @@ overflow: hidden;
   .upload_item_mobile img {
     width: 90rem;
     margin-left: 5rem;
-   
   }
   .upload_main {
-    height:fit-content;
+    height: fit-content;
   }
   .upload_undertext p {
     font-size: 3.62rem;
     line-height: 6rem;
   }
-
 }
