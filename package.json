@@ -16,7 +16,8 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-rsync": "0.0.9",
-    "gulp-sass": "^5.1.0"
+    "gulp-sass": "^5.1.0",
+    "prettier": "2.8.4"
   },
   "dependencies": {
     "sass": "^1.58.3",

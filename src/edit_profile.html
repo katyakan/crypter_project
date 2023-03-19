@@ -26,8 +26,8 @@
             <use xlink:href="./img/logo/sprite.svg#divider"></use>
           </svg>
         </div>
-        <div class="header_block">
-          <a href="#" class="header__link1">Discover &nbsp;&nbsp;</a>
+        <div class="header_block_discover discover">
+          <a href="#discover" class="header__link1">Discover</a>
         </div>
         <div class="header_block_how">
           <a href="./faq.html" class="header__link2">How it work</a>
@@ -39,11 +39,10 @@
               <svg class="header_search">
                 <use xlink:href="./img/logo/sprite.svg#search"></use>
               </svg>
-              <!--  <img src="./img/logo/search.svg" alt="" class="" /> -->
             </button>
           </form>
         </div>
-        <div class="header_block header_notification"><svg class="notification">
+        <div class="header_block header_notification1"><svg class="notification1">
             <use xlink:href="./img/logo/sprite.svg#notification"></use>
           </svg></div>
         <div class="header_block header_button_upload"><a href="./upload.html">
@@ -53,13 +52,18 @@
         <div class="header_block_wallet">
           <a href="./wallet.html">
             <svg class="button_wallet">
-              <use xlink:href="./img/logo/sprite.svg#button_wallet"></use>
+              <use xlink:href="./img/logo/sprite.svg#button_full_wallet_avatar"></use>
             </svg>
           </a>
         </div>
+        <div class="header_burger">
+          <svg class="button_wallet">
+            <use xlink:href="./img/logo/sprite.svg#burger"></use>
+          </svg>
+        </div>
       </div>
-    </div>
-  </header>
+      </div>
+      </header>
   <main class="edit_main">
     <div class="edit_nav">
       <div class="container">
@@ -81,7 +85,8 @@
     <div class="container_small">
       <div class="edit_headline">Edit profile</div>
       <div class="edit_text">
-        <p>You can set preferred display name, create <span> <a href="./profile.html">your profile URL </a></span>and manage other personal settings.
+        <p>You can set preferred display name, create <span> <a href="./profile.html">your profile URL </a></span>and
+          manage other personal settings.
         </p>
       </div>
       <div class="edit_columns">
@@ -90,64 +95,79 @@
             <img src="./img/original/avatar_green.png" alt="photo">
           </div>
           <div class="edit_column_left_photo_description">
-            <div class="edit_column_left_photo_description"><p>Profile photo</p></div>
-            <div class="edit_column_left_photo_description_small"><p>We recommend an image
-              of at least 400x400.Gifs work too 🙌</p></div>
+            <div class="edit_column_left_photo_description">
+              <p>Profile photo</p>
+            </div>
+            <div class="edit_column_left_photo_description_small">
+              <p>We recommend an image
+                of at least 400x400.Gifs work too 🙌</p>
+            </div>
             <div class="edit_column_left_photo_description"><a href="./upload.html">
-              <svg class="button_upload">
-                <use xlink:href="./img/logo/sprite.svg#upload_small"></use>
-              </svg>
-            </a></div>
+                <svg class="button_upload">
+                  <use xlink:href="./img/logo/sprite.svg#upload_small"></use>
+                </svg>
+                </a></div>
           </div>
         </div>
         <div class="edit_column_right">
           <form action="#">
-          <div class="edit_column_right_block_title"><p>Account info</p></div>
-          <div class="edit_column_right_block">
-            <label for="name">display name</label><br>
-            <input type="name" id="name"placeholder="Enter your display name">
-          </div>
-          <div class="edit_column_right_block">
-            <label for="url">Custom URL</label><br>
-            <input type="url" id="url"placeholder="ui8.net/Your custom URL"></div>
-          <div class="edit_column_right_block">
-            <label for="bio">BIO</label>
-
-<textarea id="bio" name="bio" rows="7" cols="65">
-  About yourselt in a few words
-</textarea>
-          </div>
-          <div class="edit_column_right_block_title"><p>Social</p></div>
-          <div class="edit_column_right_block">
-            <label for="website">portfolio or website</label><br>
-            <input type="url" id="website"placeholder="Enter URL">
-          </div>
-          <div class="edit_column_right_block_twitter">
+            <div class="flex_planshet">
+              <div>
+                <div class="edit_column_right_block_title">
+                  <p>Account info</p>
+                </div>
+                <div class="edit_column_right_block">
+                  <label for="name">display name</label><br>
+                  <input type="name" id="name" placeholder="Enter your display name">
+                  </div>
+                  <div class="edit_column_right_block">
+                    <label for="url">Custom URL</label><br>
+                  <input type="url" id="url" placeholder="ui8.net/Your custom URL">
+                  </div>
+                  <div class="edit_column_right_block">
+                    <label for="bio">BIO</label>
+                    <textarea id="bio" name="bio" rows="7" cols="65">
+About yourselt in a few words
+                    </textarea>
+                    </div>
+              </div>
+              <div>
+                <div class="edit_column_right_block_title">
+                  <p>Social</p>
+                </div>
+                <div class="edit_column_right_block">
+                  <label for="website">portfolio or website</label><br>
+                  <input type="url" id="website" placeholder="Enter URL">
+                  </div>
+                  <div class="edit_column_right_block_twitter">
   
-            <label for="twitter">Twitter</label><br/>
-            <input id="twitter" type="text" pattern="^@[A-Za-z0-9_]{1,15}$" required placeholder="@twitter username">
-            <input type="submit" value="verify account">
-            
-          </div>
-          <div class="edit_column_right_block"><a href="#">
-            <svg class="button_edit">
-              <use xlink:href="./img/logo/sprite.svg#add_social"></use>
-            </svg>
-          </a></div>
-          <div class="edit_column_right_block_last">
-            <p>To update your settings you should sign message through your wallet. Click 'Update profile' then sign the message</p>
-          </div>
-          <div class="edit_column_right_block_buttons"> 
-             <input type="submit" value="Update Profile">
-             <input type="reset" value=" ⊗ Clear all">
-       </div>
+                  <label for="twitter">Twitter</label><br />
+                  <input id="twitter" type="text" pattern="^@[A-Za-z0-9_]{1,15}$" required
+                    placeholder="@twitter username">
+                  <input type="submit" value="verify account">
+
+                  </div>
+                  <div class="edit_column_right_block"><a href="#">
+                      <svg class="button_edit">
+                        <use xlink:href="./img/logo/sprite.svg#add_social"></use>
+                      </svg>
+                    </a></div>
+              </div>
+              </div>
+
+            <div class="edit_column_right_block_last">
+              <p>To update your settings you should sign message through your wallet. Click 'Update profile' then sign
+                the message</p>
+              </div>
+              <div class="edit_column_right_block_buttons">
+                <input type="submit" value="Update Profile">
+                <input type="reset" value=" ⊗ Clear all">
+              </div>
           </form>
         </div>
       </div>
 
     </div>
-
-
   </main>
   <footer>`
     <div class="container">
