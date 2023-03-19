@@ -1,15 +1,14 @@
 .header {
-  border-bottom: .1rem solid #353945;
+  border-bottom: 0.1rem solid #353945;
   text-align: center;
   width: 100%;
- 
 }
 .navigation {
   display: grid;
- grid-template-columns:17% 5% 8% 15% 26% 4% 12% 15%;// auto auto auto auto auto auto auto auto;// ;
+  grid-template-columns: 17% 5% 8% 15% 26% 4% 12% 15%; // auto auto auto auto auto auto auto auto;// ;
   box-sizing: border-box;
-margin: 0;
- align-items: center;
+  margin: 0;
+  align-items: center;
   padding: 0;
 }
 .header_block_logo {
@@ -21,12 +20,12 @@ margin: 0;
 }
 
 .search {
- margin-right: 3rem;
+  margin-right: 3rem;
 }
 
 .logo svg {
   width: 12.6rem;
- margin-left: -7rem;
+  margin-left: -7rem;
 }
 .line {
   color: #353945;
@@ -38,9 +37,7 @@ margin: 0;
   color: white;
   width: 1rem;
   height: 4rem;
- 
 }
-
 
 .header_input {
   font-family: inherit;
@@ -56,28 +53,24 @@ margin: 0;
 .header_search {
   width: 1.7rem;
   height: 1.7rem;
-  
 }
 
-.wall_but svg{
+.wall_but svg {
   width: 13.7rem;
   height: 4rem;
 }
 .notification {
   height: 4rem;
   width: 4rem;
-
 }
 .notification1 {
   height: 4rem;
   width: 4rem;
-
 }
 
 input {
   color: grey;
 }
-
 
 .upload_header {
   display: flex;
@@ -86,8 +79,6 @@ input {
   align-items: center;
   margin: 0;
   padding: 0;
- 
-
 }
 
 .header__logo {
@@ -103,14 +94,14 @@ input {
   text-align: center;
   color: #777e91;
 }
-.button_upload  {
-width: 8rem;
-height: 4rem;
+.button_upload {
+  width: 8rem;
+  height: 4rem;
 }
 
 .button_wallet {
   width: 13.7rem;
-height: 4rem;
+  height: 4rem;
 }
 
 .header_burger svg {
@@ -119,26 +110,30 @@ height: 4rem;
 /*media*/
 
 @media (max-width: 70em) {
- .discover, .divider, .header_block_how, .discover a, .header_link1 a, .header_block_discover  {
-  display: none;
- }
- 
- .navigation {
-  display: grid;
-  grid-template-columns: 22%  8% 8% 30% 5% 10% 19%;
-  
- 
- margin: 0;
-  align-items: center;
-   padding: 0;
- }
+  .discover,
+  .divider,
+  .header_block_how,
+  .discover a,
+  .header_link1 a,
+  .header_block_discover {
+    display: none;
+  }
 
- .header {
-  border-bottom: .1rem solid #141416;
- }
- .header_burger svg {
-  display: none;
- }
+  .navigation {
+    display: grid;
+    grid-template-columns: 22% 8% 8% 30% 5% 10% 19%;
+
+    margin: 0;
+    align-items: center;
+    padding: 0;
+  }
+
+  .header {
+    border-bottom: 0.1rem solid #141416;
+  }
+  .header_burger svg {
+    display: none;
+  }
 }
 
 @media (max-width: 38em) {
@@ -148,22 +143,23 @@ height: 4rem;
     align-items: center;
     text-align: center;
     padding: 4rem 1rem 1rem 1rem;
-    
   }
- 
-  .header_burger svg{
+
+  .header_burger svg {
     display: inline-block;
     width: 6.4rem;
     height: 6.4rem;
-    
-   }
-   .header_block_wallet, .header_button_upload, .header_notification, .header_input, .header_search {
+  }
+  .header_block_wallet,
+  .header_button_upload,
+  .header_notification,
+  .header_input,
+  .header_search {
     display: none;
-   }
-   .notification1 {
+  }
+  .notification1 {
     height: 8rem;
     width: 8rem;
-  
   }
 }
 
@@ -176,5 +172,4 @@ height: 4rem;
     width: 9rem;
     margin-right: 5rem;
   }
-  
 }

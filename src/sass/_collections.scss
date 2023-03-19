@@ -149,7 +149,6 @@
 }
 @media (max-width: 380px) {
   .collections {
- 
     height: 140rem;
   }
   .collections_item:first-of-type {
@@ -158,18 +157,16 @@
   .collections_main {
     justify-content: center;
     width: 100%;
-    
   }
   .collections_item {
     width: 70%;
     height: 75rem;
     margin-bottom: 20rem;
-    
   }
-  .collections_img img{
+  .collections_img img {
     width: 100%;
   }
- 
+
   .a {
     width: 70rem;
     height: 48rem;
@@ -181,7 +178,7 @@
     border-radius: 1.6rem;
     width: 70rem;
   }
-  
+
   .b,
   .c,
   .d {
@@ -192,36 +189,30 @@
     margin-bottom: 5rem;
   }
   .b img,
-.c img,
-.d img {
-  border-radius: 1.8rem;
-  width: 22rem;
- 
-}
-.collections_title {
-  
-  font-size: 8rem;
-  line-height: 9.6rem;
- margin-left: 10rem;
-  margin-bottom: 12rem;
-}
-.collections_name {
-  
-  font-size: 4.8rem;
-  line-height: 6.4rem;
-  
-  margin: 1rem 0;
-}
-.collection_desc_client, .collection_desc2 {
- 
-  font-size: 3.8rem;
-  line-height: 4.8rem;
- 
-}
-.collections_desc img {
-  height: 6rem;
-  width: auto;
-  
-}
-  
+  .c img,
+  .d img {
+    border-radius: 1.8rem;
+    width: 22rem;
+  }
+  .collections_title {
+    font-size: 8rem;
+    line-height: 9.6rem;
+    margin-left: 10rem;
+    margin-bottom: 12rem;
+  }
+  .collections_name {
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+
+    margin: 1rem 0;
+  }
+  .collection_desc_client,
+  .collection_desc2 {
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+  }
+  .collections_desc img {
+    height: 6rem;
+    width: auto;
+  }
 }
