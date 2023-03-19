@@ -352,7 +352,7 @@ input[type=number] {
   font-size: inherit;
   background-color: #141416;
   border: #777e90 solid;
-  padding: 1.15rem 1.15rem;
+  padding: 2rem 1.3rem 1rem 1.3rem;
   border-radius: 0.8rem;
   width: 25.6rem;
   transition: all 0.2s;
@@ -552,7 +552,7 @@ input {
 }
 
 .creator_frame svg {
-  height: 29.6rem;
+  height: 28.6rem;
   margin: 0;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -827,7 +827,8 @@ input {
     margin-left: 15rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    width: 70%;
+    height: 28.6rem;
+    width: 35rem;
   }
   .creator_place_bid {
     margin-left: 15rem;
@@ -894,10 +895,19 @@ input {
     width: 36rem;
   }
   .creator_frame img {
-    margin-left: 10rem;
-    width: 70%;
+    margin-left: 5rem;
     text-align: center;
     overflow: hidden;
+    height: 90rem;
+    width: 90rem;
+  }
+  .creator_frame {
+    margin-left: 0rem;
+    text-align: center;
+    overflow: hidden;
+    height: 90rem;
+    margin-left: 5rem;
+    width: 90rem;
   }
 }
 .seller {
@@ -3252,7 +3262,7 @@ input[type=submit] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid #777E91;
+  border-bottom: 1px solid #777e91;
   position: relative;
 }
 
@@ -3272,7 +3282,7 @@ input[type=submit] {
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 2rem;
-  color: #777E91;
+  color: #777e91;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -3280,7 +3290,7 @@ input[type=submit] {
 }
 
 .footer_base2 span {
-  color: #3772FF;
+  color: #3772ff;
 }
 
 .footer_logo img {
@@ -3295,7 +3305,7 @@ input[type=submit] {
   font-size: 2.4rem;
   line-height: 3.2rem;
   letter-spacing: -0.01em;
-  color: #E6E8EC;
+  color: #e6e8ec;
   position: relative;
 }
 
@@ -3303,9 +3313,9 @@ input[type=submit] {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FCFCFD;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #fcfcfd;
   position: relative;
 }
 
@@ -3315,21 +3325,133 @@ input[type=submit] {
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 1.6rem;
-  color: #777E91;
+  color: #777e91;
   position: relative;
 }
 
-.footer_link:hover, .footer_link:active {
-  color: #FCFCFD;
+.footer_link:hover,
+.footer_link:active {
+  color: #fcfcfd;
   box-shadow: 0 1rem 2 rem rgba(252, 252, 253, 0.4);
   transform: scale(1.05);
 }
 
 .footer_search {
-  box-sizing: border-box;
-  width: 352px;
-  height: 48px;
-  border: 2px solid #353945;
-  border-radius: 90px;
+  margin-top: 5rem;
+  width: 35.2rem;
+  height: 4.8rem;
+  border: 0.2rem solid #353945;
+  border-radius: 9rem;
   position: relative;
+}
+
+.header_input1 {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #141416;
+  border: #777e90 solid;
+  padding: 2rem 1.3rem 1rem 1.3rem;
+  border-radius: 0.8rem;
+  width: 25.6rem;
+  transition: all 0.2s;
+  margin-right: -3.25rem;
+}
+
+.header_search1 {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+@media (max-width: 380px) {
+  .footer_base {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .footer_column {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  .footer_column:not(:last-child) {
+    border-bottom: 0.2rem solid #353945;
+  }
+  .footer_base2 {
+    margin-left: 7rem;
+    font-size: 3.6rem;
+    line-height: 6rem;
+  }
+  .footer_text {
+    margin-left: 7rem;
+    font-size: 7.2rem;
+    line-height: 9.6rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+  }
+  .footer_link1 {
+    height: auto;
+    margin-left: 7rem;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    margin-bottom: 5rem;
+  }
+  .footer_email {
+    height: 30rem;
+  }
+  .footer_link {
+    margin-left: 7rem;
+    font-size: 4.2rem;
+    line-height: 4.8rem;
+    margin-bottom: 5rem;
+  }
+  .footer_search {
+    margin-left: 5rem;
+    display: block;
+    width: 90rem;
+    height: 14.4rem;
+  }
+  .footer_logo img {
+    height: 26rem;
+    margin-left: -15rem;
+  }
+  .footer_label p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.2rem;
+    line-height: 7.2rem;
+    color: #fcfcfd;
+    margin-left: 7rem;
+  }
+  br {
+    display: none;
+  }
+  .footer_email {
+    display: block;
+  }
+  .header_input1 {
+    margin-top: 5rem;
+    margin-left: 7rem;
+    width: 76rem;
+    margin-right: -9rem;
+    padding: 6rem 4rem 3rem 4rem;
+    border-radius: 3rem;
+    align-items: center;
+  }
+  .header_search1 {
+    width: 5.1rem;
+    height: 5.1rem;
+    align-items: center;
+  }
+  .header_search1 svg {
+    align-items: center;
+  }
+  input[type=email] {
+    font-weight: bold;
+    font-size: 4.2rem;
+    line-height: 4.8rem;
+  }
 }

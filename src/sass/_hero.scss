@@ -79,7 +79,7 @@
 }
 
 .creator_frame svg {
-  height: 29.6rem;
+  height: 28.6rem;
   margin: 0;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -351,7 +351,10 @@
     margin-left: 15rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    width: 70%;
+    height: 28.6rem;
+  
+    width: 35rem;
+   // width: 70%;
   }
 
   .creator_place_bid {
@@ -420,12 +423,21 @@
     width: 36rem;
   }
   .creator_frame img {
-    margin-left: 10rem;
-    width: 70%;
+    margin-left: 5rem;
+    //dth: 70%;
     text-align: center;
     overflow: hidden;
+    height: 90rem;
+    
+    width: 90rem;
   }
   .creator_frame {
-    //width: 60rem;
+    margin-left: 0rem;
+    //dth: 70%;
+    text-align: center;
+    overflow: hidden;
+    height: 90rem;
+    margin-left: 5rem;
+    width: 90rem;
   }
 }
